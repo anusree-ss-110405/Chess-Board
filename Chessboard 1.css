@@ -1,0 +1,16 @@
+
+  .row div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .row:nth-child(odd) :nth-child(even),
+  .row:nth-child(even) :nth-child(odd) {
+    background: black;
+  }
+  

@@ -1,0 +1,23 @@
+html{
+    background-color: gray;
+}
+body{
+    background-color:white;
+    width: 800px;
+    height:800px;
+}
+.row
+{
+    height: 100px;
+    width:800px;
+}
+.box
+{
+    height: 100px;;
+    width: 100px;
+    float:left;
+}
+.black
+{
+    background-color: black;
+}
